@@ -1,0 +1,19 @@
+span.Collapsible__trigger {
+  display: flex;
+  background: #1b1b4d;
+  color: white;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.dx-first-row.dx-first-col.dx-last-col.dx-last-row.dx-field-item.dx-col-0.dx-field-item-required.dx-flex-layout.dx-label-h-align {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 1rem;
+}
+
+.Collapsible {
+  box-sizing: border-box;
+  margin: 0.1rem;
+}

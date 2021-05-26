@@ -1,0 +1,24 @@
+.comment-pic {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.comment-card-info {
+  margin-left: 20px;
+}
+.commentInfo i {
+  margin: 0px 5px;
+}
+.comment-card .row {
+  padding: 10px;
+}
+.comment-card {
+  display: flex;
+  border: 1px solid #eee;
+  padding: 5px;
+  margin: 10px 0px;
+}
+.comment-content {
+  display: grid;
+}

@@ -1,0 +1,52 @@
+.event-header img {
+  height: 307px;
+  width: 100%;
+}
+.event-header {
+  position: relative;
+}
+.announcements {
+  background-color: yellow;
+}
+.event-info-header {
+  position: absolute;
+  bottom: 0%;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: aliceblue;
+  font-weight: lighter;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.schedule {
+  display: flex;
+}
+.schedule p {
+  margin-right: 15px;
+}
+.event-info-header h4 {
+  text-transform: capitalize;
+  font-weight: 300;
+}
+@media (max-width: 769px) {
+  .event-page {
+    margin: 9% 2% !important;
+  }
+}
+.attendees a {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+@media (max-width: 426px) {
+  .event-info-header,
+  .schedule {
+    display: block;
+  }
+  .event-page {
+    margin: 17% 3% !important;
+  }
+  .attendees {
+    display: block !important;
+  }
+}

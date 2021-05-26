@@ -1,0 +1,127 @@
+.login-signup-container .input-group {
+  margin-bottom: 4%;
+}
+.login-signup-container input.form-control {
+  font-size: 14px !important;
+}
+.dx-multiview-wrapper {
+  border: unset !important;
+}
+.login-signup-container form {
+  padding: 5px 10px 5px 5px;
+}
+.login-signup-container .form-control {
+  padding: 0px;
+}
+.input-group-text {
+  background-color: white !important;
+  border: unset !important;
+}
+.dx-tabpanel-container .dx-multiview-wrapper {
+  border: unset;
+}
+.authentication-popup .dx-popup-content {
+  padding: 0px;
+}
+.form-group label {
+  font-weight: 500;
+}
+
+.form-group input {
+  border: unset;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+}
+.form-group input:focus {
+  box-shadow: unset;
+}
+.showPassword {
+  bottom: 5px;
+  right: 0px;
+}
+
+.login-btn button,
+.login-btn button:active,
+.login-btn button:hover,
+.login-btn button:focus {
+  background-color: #00102c !important;
+  border: unset !important;
+}
+.login-btn button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px,
+    rgba(0, 0, 0, 0.24) 0px 0px 1px 0px !important;
+}
+.social-signin .fa-facebook {
+  color: white;
+}
+.authentication-popup .dx-overlay-content {
+  overflow-y: auto;
+}
+.loginPage input {
+  background-color: inherit;
+}
+.loginPage .login-signup-container {
+  padding: 0% 25%;
+}
+.loginPage .LoginSignupBtn button {
+  width: 13% !important;
+}
+.loginPage .login-btn button {
+  width: 35% !important;
+}
+@media only screen and (min-width: 1025px) {
+  form[name="login-form"] {
+    padding: 50px 30px 5px 30px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .loginPage .LoginSignupBtn button {
+    width: 19% !important;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .authentication-popup .dx-overlay-content.dx-popup-normal.dx-resizable {
+    width: 40% !important;
+    height: 65% !important;
+  }
+  .category-popup .dx-overlay-content.dx-popup-normal.dx-resizable {
+    width: 40% !important;
+    height: auto !important;
+  }
+  .loginPage .LoginSignupBtn button {
+    width: 25% !important;
+  }
+  .loginPage .login-btn button {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .authentication-popup .dx-overlay-content.dx-popup-normal.dx-resizable {
+    width: 80% !important;
+    height: 75% !important;
+  }
+  .category-popup .dx-overlay-content.dx-popup-normal.dx-resizable {
+    width: 80% !important;
+    height: auto !important;
+  }
+  form[name="login-form"] {
+    padding: 20px;
+  }
+  .loginPage .login-signup-container {
+    padding: 0% 5%;
+  }
+  .loginPage .LoginSignupBtn button {
+    width: 45% !important;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .authentication-popup .dx-overlay-content.dx-popup-normal.dx-resizable {
+    height: 75% !important;
+  }
+  .category-popup .dx-overlay-content.dx-popup-normal.dx-resizable {
+    height: auto !important;
+  }
+  .loginPage .LoginSignupBtn button {
+    width: 60% !important;
+  }
+}

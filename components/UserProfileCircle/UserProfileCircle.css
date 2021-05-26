@@ -1,0 +1,10 @@
+.userCircleProfile img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.userCircleProfile {
+  margin-right: 10px;
+  text-align: center;
+  display: inline-flex;
+}

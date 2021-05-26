@@ -1,0 +1,50 @@
+{
+  "name": "kavishala-ssr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "debug": "NODE_OPTIONS='--inspect' next -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -p 3001"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.15",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.4.1",
+    "devextreme": "^19.2.6",
+    "devextreme-react": "^19.2.6",
+    "font-awesome": "^4.7.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "jquery": "^3.4.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "next": "^9.4.0",
+    "next-ga": "^2.3.4",
+    "next-images": "^1.7.0",
+    "next-pwa": "^5.0.6",
+    "react": "16.12.0",
+    "react-adsense": "^0.1.0",
+    "react-carousel-vertical": "^1.10.27",
+    "react-collapsible": "^2.8.3",
+    "react-dom": "16.12.0",
+    "react-facebook-login": "^4.1.1",
+    "react-ga": "^3.0.0",
+    "react-google-login": "^5.1.1",
+    "react-html-parser": "^2.0.2",
+    "react-lazy-load-image-component": "^1.4.3",
+    "react-slick": "^0.27.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.2",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1"
+  }
+}

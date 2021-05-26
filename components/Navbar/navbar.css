@@ -1,0 +1,93 @@
+.navbar {
+  padding: 10px 5rem !important;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.12),
+    0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  background-color: #fff !important;
+  color: #555;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    padding: 10px 1rem !important;
+  }
+}
+.nav-item .fa-ellipsis-v {
+  font-size: 25px;
+  padding-top: 7px;
+}
+.mobile-nav-dropdown {
+  left: -10rem !important;
+  position: absolute !important;
+}
+.mobile-nav-dropdown li {
+  padding-left: 25px;
+}
+/* @media only screen and (max-width: 769px) {
+  .navbar-nav {
+    flex-direction: column !important;
+  }
+} */
+
+.input-group input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #eee;
+}
+.span.input-group-text {
+  background-color: white !important;
+  border: unset !important;
+}
+.outside-collapse {
+  display: flex;
+  flex-direction: row !important;
+  margin-left: auto;
+}
+.outside-collapse li {
+  margin-right: 10px;
+}
+@media (min-width: 801px) {
+  .outside-collapse {
+    display: none !important;
+  }
+}
+#profilePicNavbar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #00102c;
+}
+
+.notification-bell {
+  padding: 10px 0px 10px 0px;
+}
+.notification-count {
+  padding: 0px 10px 10px 0px;
+}
+.viewMore {
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.notificationDropDown {
+  padding: 15px;
+}
+
+.notificationDropDown .cont {
+  border-bottom: 1px solid #ddd !important;
+  padding: 7px 10px !important;
+  margin-bottom: 5px !important;
+  font-weight: 600;
+  background: #ececec;
+}
+
+.viewMore {
+  color: #fff;
+  background: #e5432e;
+  margin-top: 11px;
+  padding: 2px 0;
+  font-size: 12px;
+}

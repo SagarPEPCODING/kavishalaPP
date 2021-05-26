@@ -1,0 +1,142 @@
+/* .dx-gallery {
+  margin-top: 75px;
+} */
+.dx-gallery img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.dx-gallery .dx-gallery-nav-button-next,
+.dx-gallery .dx-gallery-nav-button-prev {
+  position: absolute;
+  top: 0;
+  width: 2% !important;
+  height: 100%;
+  background: 0 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.landing-posts {
+  margin-top: 5% !important;
+}
+
+img.width100.imgOfSideCarousel {
+  object-fit: fill;
+  width: 100%;
+  box-sizing: border-box;
+  height: 120px;
+  padding: 0.1rem;
+  border-radius: 10px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.dx-gallery.dx-widget.dx-visibility-change-handler.dx-collection.dx-swipeable {
+  border: 2px solid red;
+}
+
+.CorouselContainer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0.1rem;
+  /* justify-content: space-around; */
+}
+
+.containerOFSlider {
+  width: calc(100% - 67%);
+}
+
+.CarouselContainerSec {
+  width: 100%;
+  margin: 0.1rem;
+  height: 350px;
+  box-sizing: border-box;
+  overflow: scroll;
+  /* padding: 0.5rem; */
+  max-height: 350px;
+}
+
+@media (max-width: 360px) {
+  .CorouselContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .dx-gallery-wrapper {
+    height: 100% !important;
+  }
+
+  .dx-item-content.dx-gallery-item-content > a {
+    height: 100%;
+  }
+
+  .containerOFSlider {
+    width: 100%;
+  }
+
+  .CarouselContainerSec {
+    width: 100%;
+    margin: 0.1rem;
+    height: 255px;
+    box-sizing: border-box;
+    overflow: scroll;
+    /* padding: 0.5rem; */
+    margin-top: 1rem;
+  }
+}
+
+/* 768 */
+
+@media (max-width: 800px) {
+  .CorouselContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .dx-gallery-wrapper {
+    height: 100% !important;
+  }
+
+  .dx-item-content.dx-gallery-item-content > a {
+    height: 100%;
+  }
+
+  .containerOFSlider {
+    width: 100%;
+  }
+
+  .CarouselContainerSec {
+    width: 100%;
+    margin: 0.1rem;
+    height: 255px;
+    box-sizing: border-box;
+    overflow: scroll;
+    /* padding: 0.5rem; */
+    margin-top: 1rem;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.CarouselContainerSec::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.CarouselContainerSec {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@media (max-width: 800px) {
+  .CarouselContainerSecmobile .dx-gallery {
+    height: 120px !important;
+  }
+  .CarouselContainerSecmobile {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .dx-gallery {
+    /* margin-top: 40px; */
+    height: 180px !important;
+  }
+}

@@ -1,0 +1,54 @@
+.event-card img {
+  height: 60px;
+  width: 60px;
+}
+.event-card {
+  margin: 10px 0px;
+  /* border: 1px solid black; */
+  padding: 5px;
+}
+.event-info {
+  margin-left: 20px;
+}
+.event-info h4 {
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.event-info p {
+  margin-bottom: 0px;
+}
+.date-box div {
+  padding: 0px 10px;
+}
+.date-box .month {
+  font-size: 25px;
+  background: #ffb52e;
+  padding: 0px 10px;
+  color: white;
+}
+.date-box .date {
+  background: white;
+  font-size: 30px;
+}
+@media (max-width: 426px) {
+  .event-card h4 {
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+  .event-location {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+  .event-info {
+    margin-left: 5px;
+  }
+  .event-time {
+    font-size: 14px;
+  }
+}
